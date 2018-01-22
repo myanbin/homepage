@@ -121,12 +121,12 @@ body.page-template-page-fullsingle-me {
   height: 100vh;
   background-color: #141414;
   font-family: 'Roboto', 'Microsoft Jhenghei', sans-serif;
-  font-weight: 500;
-  font-size: 45px;
-  line-height: 60px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
   letter-spacing: -0.5px;
   color: #dddddd;
-  background-image: url("../../images/background.jpg");
+  /* background-image: url("../../images/background.jpg"); */
   background-position: center center;
   background-size: cover;
 }
@@ -138,8 +138,8 @@ body.page-template-page-fullsingle-me p {
 
 @media (max-width: 800px) {
   body.page-template-page-fullsingle-me p {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 36px;
   }
 }
 
@@ -271,7 +271,7 @@ body.page-template-page-fullsingle-me p {
   display: inline-block;
   width: 30px;
   height: 30px;
-  font-size: 26px;
+  font-size: 22px;
   color: #cccccc;
   cursor: pointer;
 }
@@ -283,6 +283,7 @@ body.page-template-page-fullsingle-me p {
 }
 
 .credit p {
+  margin-top: 14px;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
