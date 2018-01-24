@@ -57,7 +57,6 @@ table {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  -moz-font-feature-settings: "liga" on;
   margin: 0;
 }
 
@@ -113,38 +112,29 @@ a, a:hover {
   }
 }
 
-html {
-  background-color: #141414;
-}
 
 body.page-template-page-fullsingle-me {
   height: 100vh;
   background-color: #141414;
   font-family: 'Roboto', 'Microsoft Jhenghei', sans-serif;
   font-weight: 400;
-  font-size: 36px;
-  line-height: 44px;
+  font-size: 30px;
+  line-height: 40px;
   letter-spacing: -0.5px;
   color: #dddddd;
-  /* background-image: url("../../images/background.jpg"); */
   background-position: center center;
   background-size: cover;
 }
 
 body.page-template-page-fullsingle-me p {
-  margin-bottom: 28px;
+  margin-bottom: 30px;
   color: #dddddd;
 }
 
-@media (max-width: 800px) {
-  body.page-template-page-fullsingle-me p {
-    font-size: 30px;
-    line-height: 36px;
-  }
-}
 
 .fs-me {
   padding: 10vh 10vw;
+  width: 80vw;
   overflow: hidden;
   position: absolute;
   z-index: 1000;
@@ -153,6 +143,7 @@ body.page-template-page-fullsingle-me p {
 @media (max-width: 500px) {
   .fs-me {
     padding: 5vh 5vw;
+    width: 90vw;
     text-align: center;
   }
 }
@@ -283,9 +274,10 @@ body.page-template-page-fullsingle-me p {
 }
 
 .credit p {
-  margin-top: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px !important;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 16px;
   font-weight: 400;
   opacity: 0.6;
 }
