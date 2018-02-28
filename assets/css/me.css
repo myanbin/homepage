@@ -118,10 +118,11 @@ body.page-template-page-fullsingle-me {
   background-color: #141414;
   font-family: 'Roboto', 'Microsoft Jhenghei', sans-serif;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 40px;
   letter-spacing: -0.5px;
   color: #dddddd;
+  background-image: url("../../images/background.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -191,7 +192,7 @@ body.page-template-page-fullsingle-me p {
 }
 
 .logo img {
-  max-width: 200px;
+  max-width: 300px;
   height: auto;
 }
 
@@ -262,7 +263,7 @@ body.page-template-page-fullsingle-me p {
   display: inline-block;
   width: 30px;
   height: 30px;
-  font-size: 22px;
+  font-size: 24px;
   color: #cccccc;
   cursor: pointer;
 }
@@ -276,7 +277,7 @@ body.page-template-page-fullsingle-me p {
 .credit p {
   margin-top: 10px;
   margin-bottom: 10px !important;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 16px;
   font-weight: 400;
   opacity: 0.6;
